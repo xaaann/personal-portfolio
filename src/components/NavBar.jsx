@@ -51,9 +51,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/roxanne-fama-aa9699359/"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://www.facebook.com/xaaaann"><img src={navIcon2} alt="Facebook" /></a>
+                <a href="https://www.instagram.com/afnsgje_/"><img src={navIcon3} alt="Instagram" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
